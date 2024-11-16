@@ -13,7 +13,7 @@ export default defineGkdApp({
           activityIds:
             'com.google.android.finsky.protectdialogs.activity.PlayProtectDialogsActivity',
           matches:
-            '[text*="保护机制"] +3 @View[clickable=true] > [text="不发送" || text="拒绝"]',
+            '[text*="保护机制" || text*="安全防護"] +3 @View[clickable=true] > [text="不发送" || text="不傳送" || text="拒绝" || text="拒絕"]',
           snapshotUrls: [
             'https://i.gkd.li/i/14035144',
             'https://i.gkd.li/i/17375098',
